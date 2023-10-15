@@ -31,7 +31,7 @@ After installing Vue, you can implement the FAB component in your application. H
 First, make sure to import the FAB component into your Vue application. You can do this by adding the following line at the top of your script in your `App.vue`:
 
 ```javascript
-import FabComponent from './components/FabComponent.vue'; // Adjust the import path as needed
+import FabComponent from 'fab.vue'; 
 ```
 
 #### 🙌 Using the Component
