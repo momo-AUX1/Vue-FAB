@@ -25,7 +25,6 @@
 <script setup>
 import { ref, computed, defineProps } from 'vue'
 
-// Props for external customization
 const props = defineProps({
   color: {
     type: String,
@@ -33,7 +32,6 @@ const props = defineProps({
   },
 });
 
-// State control for FAB
 const showFab = ref(false);
 const fabActions = ref([
 ]);
