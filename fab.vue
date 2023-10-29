@@ -57,6 +57,9 @@ const computedColor = computed(() => {
 });
 
 const handleClick = (action) => {
+  if (action && action.action && typeof action.action === 'function') {
+    action.action();
+  }
   
   console.log(`${action.name} clicked`);
   toggleFab();
