@@ -26,17 +26,14 @@
 import { ref, computed, defineProps } from 'vue'
 
 const props = defineProps({
-  color: {
-    type: String,
-    default: 'rainbow', 
-  },
+  color: String,
+  fabActions: Array, 
 });
 
 const showFab = ref(false);
-const fabActions = ref([
-]);
 
 const toggleFab = () => {
+  console.log('toggleFab');
   showFab.value = !showFab.value;
 };
 
