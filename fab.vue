@@ -47,7 +47,9 @@ const colors = {
   blue: '#0000FF',
   indigo: '#4B0082',
   violet: '#9400D3',
-  brown: '#8b4513'
+  brown: '#8b4513',
+  black: '#000000',
+  white: ''
 };
 
 const computedColor = computed(() => {
